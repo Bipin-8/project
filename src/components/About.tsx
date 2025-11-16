@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
+import aboutimg from "../assets/about.jpg"
 
 export const About = () => {
   useEffect(() => {
@@ -25,7 +26,7 @@ export const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div data-aos="fade-right">
             <img
-              src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=400"
+              src={aboutimg}
               alt="About me"
               className="rounded-lg shadow-xl object-cover w-full h-96"
             />
