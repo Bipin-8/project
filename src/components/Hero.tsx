@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import profilePic from '../assets/profile.jpg'; // <-- make sure to put your image in src/assets
+import profilePic from '../assets/profile1.jpg'; // <-- make sure to put your image in src/assets
 
 export const Hero = () => {
   useEffect(() => {
